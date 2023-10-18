@@ -1,0 +1,91 @@
+ /* CSS */
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+ 
+*{ 
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #ddd;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link{
+    background-color:#333;
+    color:#ddd;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a:visited{
+    background-color: #333;
+    color: #ddd;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+float: left;
+display:block;
+color: #ddd;
+background-color: #333;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+}
+
+.topnav a:hover{
+    background-color: #333;
+    color:#39bef3;
+
+}
+
+.column{
+    float: right;
+    width : 260px;
+    background-color : #ddd;
+    padding : 10px;
+
+}
+
+.content {
+    float: left;
+    width: auto;
+    max-width: 50%;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px){
+    .column{ 
+        width:100%;
+    }
+    .content{
+        width:100%;
+    }
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+    color: #ddd;
+}
+
+
+
+ul.a{
+    list-style-type: circle;
+}
