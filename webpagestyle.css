@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family:  'Roboto', sans-serif;
     font-size: 20px;
-    background-color: #ddd;
+    background-color: #b7cbce
 }
 
 
@@ -50,7 +50,7 @@ font-size: 20px;
 .column{
     float: right;
     width : 260px;
-    background-color : #ddd;
+
     padding : 10px;
 
 }
@@ -59,7 +59,13 @@ font-size: 20px;
     float: left;
     width: auto;
     max-width: 50%;
-    background-color: #ddd;
+    padding: 10px;
+}
+
+.resume{
+    float: left;
+    width: auto;
+    width: 50%;
     padding: 10px;
 }
 
@@ -74,10 +80,17 @@ font-size: 20px;
         width:100%;
     }
     .content{
+        width:auto;
+        max-width:100%
+    }
+    .resume{
         width:100%;
     }
+    .row{
+        width:100%;
+    }
+   
 }
-
 .footer {
     background-color: #333;
     padding: 10px;
@@ -87,5 +100,19 @@ font-size: 20px;
 
 
 ul.a{
+    border-radius: 15px;
     list-style-type: circle;
+    background-color: azure;
+}
+
+li{
+    border-radius: 25px;
+    background: azure;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.bold {
+    font-weight: bold;
+    background: azure;
 }
